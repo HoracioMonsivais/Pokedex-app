@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokedex Launch X</title>
+    <link rel="Icon" href="./assets/Icons/pokeball_favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <figure class="header__logo">
+                <img src="./assets/Icons/pokedex-logo.svg" class="header__pokedex" alt="Pokedex_logo">
+            </figure>
+            <div class="header__search">
+                <input class="hero__input" id="pokeName" type="text" name="pokeName" placeholder="Pokemon name">
+                <button class="hero__button" href="#" onclick="fetchPokemon()">Search Pokemon</button>
+            </div>
+            <a href="#">Home</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="pokedex">
+            <div class="pokedex__container">
+                <figure class="pokedex__Img">
+                    <img class="pokedex_pokemon" id="pokeImg" src="./assets/Img/pokeball.png" alt="Pokemon_img">
+                </figure>
+            </div>
+        </section>
+
+        <footer class="footerA">
+            <a href="#" class="footerA__legal">Pokedex</a>
+            <a href="#" class="footerA__legal">@Copyright 2022</a>
+
+            <script src="./pokedexLaunchX.js"></script>
+        </footer>
+    </main>
+    
+</body>
+</html>

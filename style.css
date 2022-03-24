@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Typography: 'Roboto', sans-serif;
+    --Primary-color: #AA3030;
+    --Secondary-color: #D14444;
+    --Button-action-color: #6894CC;
+
+    --Padding-section: 50px 16px;
+}
+
+body {
+    font-family: var(--Typography);
+}
+
+/* Header */
+.header {
+    background-color: var(--Secondary-color);
+    margin: 0 auto;
+    padding: 0px 16px;
+    height: 10vh;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+}
+
+.header__logo {
+    width: 50%;
+    max-width: 180px;
+}
+
+.header__pokedex {
+    width: 100%;
+    display: block;
+}
+
+.header__search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.hero__input {
+    width: 502px;
+    height: 46px;
+    left: 377px;
+    top: 22px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding: 0px 0px 0px 20px;
+    outline: none;
+}
+
+.hero__button {
+    background: var(--Button-action-color);
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Main */
+.pokedex {
+    background-color: var(--Primary-color);
+    height: 80vh;
+    padding: var(--Padding-section);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokedex__container {
+    width: 670px;
+    height: 498px;
+    left: 377px;
+    top: 173px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokedex__Img {
+    width: 120px;
+    height: 120px;
+}
+
+.pokedex_pokemon {
+    width: 100%;
+    display: block;
+}
+/* footer */
+
+.footerA {
+    height: 10vh;
+    background-color: var(--Secondary-color);
+    margin: 0 auto;
+    padding: 20px 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerA a {
+    text-decoration: none;
+    color: aliceblue;   
+}
